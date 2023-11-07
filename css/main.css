@@ -1,0 +1,139 @@
+* {
+  font-family: "Playfair Display", serif;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  font-weight: 400;
+  font-size: 1.2rem;
+  border: 2px solid;
+  display: inline;
+  padding: 5px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+li {
+  margin-left: 4rem;
+}
+
+a {
+  color: black;
+}
+
+@media screen and (max-width: 520px) {
+  header,
+  ul {
+    flex-direction: column;
+  }
+}
+
+/* MAIN */
+.main-img {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.hospital-img {
+  height: 200px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 5rem;
+  border-top: 1px solid black;
+}
+
+.experience-container {
+  text-align: center;
+}
+
+/* CATEGORY SECTION */
+
+.category-hiking,
+.category-photography,
+.category-cooking {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+figure {
+  text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+figure {
+  flex: 0 0 auto;
+  margin: 0 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* HEADER */
+h2 {
+  color: blueviolet;
+}
+
+.contact {
+  position: relative;
+  min-height: 1%;
+  padding: 100px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(bgr.png);
+  background-size: cover;
+}
+.inputbox input[type="text"],
+.inputbox textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.inputbox span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.inputbox {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.contactinfo {
+  justify-content: center;
+  align-items: center;
+}
+.get-in-touch {
+  text-align: center;
+  margin-top: 20px;
+}
+.center-heading {
+  text-align: center;
+  margin-top: 20px;
+}
